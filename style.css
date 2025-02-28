@@ -1,0 +1,40 @@
+.logo {
+    height: 40px;
+}
+
+.container {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.header {
+    background-color: blueviolet;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
